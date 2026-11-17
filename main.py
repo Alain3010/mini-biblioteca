@@ -3,6 +3,8 @@ from busqueda import buscar_libro
 
 def mostrar_menu():
     print("\n=== MINI BIBLIOTECA ===")
+    print("1. Añadir libro")
+    print("2. Listar libros")
     print("3. Buscar libro")
     print("0. Salir")
 
@@ -17,8 +19,15 @@ def main():
         if opcion == "0":
             print("¡Hasta pronto!")
             break
+        elif opcion == "1":
+            biblioteca = libros.anadir_libro(biblioteca)
+            break
+        elif opcion == "2":
+            libros.listar_libros(biblioteca)
+            break
         elif opcion == "3":
             buscar_libro(biblioteca)
+            break
         else:
             print("Opción no válida")
 
