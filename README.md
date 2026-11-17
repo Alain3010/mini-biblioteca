@@ -5,3 +5,4 @@ Programa de consola para gestionar una pequeña biblioteca de libros.
 ## Participantes
 Ekaitz Rivero
 Jaime Díaz
+Alain Martínez – datos.py (guardar y cargar libros)
