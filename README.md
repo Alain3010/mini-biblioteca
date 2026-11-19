@@ -4,4 +4,3 @@ Programa de consola para gestionar una pequeña biblioteca de libros.
  python main.py
 ## Participantes
 Ekaitz Rivero
-Jaime Díaz
